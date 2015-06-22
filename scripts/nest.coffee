@@ -81,7 +81,7 @@ module.exports = (robot) ->
 	robot.hear /nest (wake|wake up|wakeup|speak|up|rise|rise and shine)/i, (msg) ->
 		if 'nest' in msg.message.user.roles
 			nest.login options.login, options.password, (data) ->
-				changeTemperatureTo 79, msg
+				changeTemperatureTo 80, msg
 		else
 			msg.reply "Please consult an admin to get access to Nest"
 
