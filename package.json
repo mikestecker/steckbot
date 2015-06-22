@@ -5,6 +5,7 @@
   "author": "Mike Stecker <mike@stecker.me>",
   "description": "A simple helpful robot for the family",
   "dependencies": {
+    "htmlparser": "^1.7.7",
     "hubot": "^2.13.2",
     "hubot-diagnostics": "0.0.1",
     "hubot-google-images": "^0.1.5",
